@@ -12,13 +12,9 @@ The requirements do not specify what should happen if multiple mowers enters in 
 Architecture
 ------------
 I made layers to separate the engine from the data transfers (ie. read and write operations). To make the maintenance easy, the project is divided in 4 main parts :
-* App
-  The entry point
-* Core
-  The engine and the working entities
-
-* Transfer
-  The input-to-engine and engine-to-output data transfers
+* App : The entry point
+* Core : The engine and the working entities
+* Transfer : The in/out layer
 
 Dependencies
 ------------

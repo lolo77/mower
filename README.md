@@ -27,6 +27,6 @@ Compile, Run and Test
 ---------------------
     mvn clean package
     cd target
-    java -jar mower-<version>.jar ..\testSuccess.txt
+    java -jar mower-<version>.jar ../testSuccess.txt
     
 The jar is shaded to avoid missing dependencies errors.
